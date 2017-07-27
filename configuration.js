@@ -11,7 +11,8 @@ angular
   path: '/jsonrpc',
   //port: 6800,
   port: 30011,
-  encrypt: false,
+  //encrypt: false,
+  encrypt: true,
   auth: {                          // either add the token field or the user and pass field, not both.
   // token: '$YOUR_SECRET_TOKEN$'
   token: 'www.qq.com'
