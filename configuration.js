@@ -1,6 +1,7 @@
 angular
 .module('webui.services.configuration',  [])
-.constant('$name', 'Aria2 WebUI')  // name used across the entire UI
+//.constant('$name', 'Aria2 WebUI')  // name used across the entire UI
+.constant('$name', '')  // name used across the entire UI
 .constant('$titlePattern', 'active: {active} - waiting: {waiting} - stopped: {stopped} — {name}')
 //.constant('$pageSize', 11)         // number of downloads shown before pagination kicks in
 .constant('$pageSize', 20)         // number of downloads shown before pagination kicks in
@@ -10,7 +11,8 @@ angular
   path: '/jsonrpc',
   //port: 6800,
   port: 30011,
-  encrypt: false,
+  //encrypt: false,
+  encrypt: true,
   auth: {                          // either add the token field or the user and pass field, not both.
   // token: '$YOUR_SECRET_TOKEN$'
   token: 'www.qq.com'
