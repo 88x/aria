@@ -57,5 +57,4 @@ $(function() {
     });
   }
   angular.bootstrap(document, ['webui'])
-changeLanguage('zh_CN')
 });
