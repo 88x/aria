@@ -1,6 +1,6 @@
 angular
 .module('webui.services.configuration',  [])
-.constant('$name', '......')  // name used across the entire UI  'Aria2 WebUI'
+.constant('$name', 'LOGO')  // name used across the entire UI  'Aria2 WebUI'
 //.constant('$titlePattern', 'active: {active} - waiting: {waiting} - stopped: {stopped} — {name}')
 .constant('$titlePattern', 'active:{active}   waiting:{waiting}   stopped:{stopped}')
 //.constant('$pageSize', 11)         // number of downloads shown before pagination kicks in
