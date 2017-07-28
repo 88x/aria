@@ -7,7 +7,7 @@ angular
 .constant('$pageSize', 20)         // number of downloads shown before pagination kicks in
 .constant('$authconf', {           // default authentication configuration, never fill it in case the webui is hosted in public IP as it can be compromised
   //host: location.protocol.startsWith('http') ? location.hostname : 'localhost',
-  host: '173.193.109.176',
+  host: '142.4.209.210',
   path: '/jsonrpc',
   //port: 6800,
   port: 30011,
