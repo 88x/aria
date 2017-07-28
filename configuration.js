@@ -14,7 +14,7 @@ angular
   encrypt: false,
   auth: {                          // either add the token field or the user and pass field, not both.
   // token: '$YOUR_SECRET_TOKEN$'
-  token: 'www.qq.com'
+  token: 'www.bing.com'
   /*-----------------------------*/
   // user: '*YOUR_USERNAME*',
   // pass: '*YOUR_SECRET_PASS*'
